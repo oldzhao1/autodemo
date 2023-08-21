@@ -1,0 +1,10 @@
+2023-08-15 10:50:15.753 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2023-08-15 10:50:15.756 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2023-08-15 10:50:15.777 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 21 ms
+2023-08-15 10:50:15.855 [http-nio-8080-exec-1] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot construct instance of `com.code.User` (although at least one Creator exists): no int/Int-argument constructor/factory method to deserialize from Number value (11); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `com.code.User` (although at least one Creator exists): no int/Int-argument constructor/factory method to deserialize from Number value (11)
+ at [Source: (PushbackInputStream); line: 1, column: 1]
+2023-08-15 10:51:47.345 [http-nio-8080-exec-4] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 更新用户数的条目为：0
+2023-08-15 10:52:17.648 [http-nio-8080-exec-5] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 更新用户数的条目为：0
+2023-08-15 10:52:29.600 [http-nio-8080-exec-6] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 更新用户数的条目为：0
+2023-08-15 10:53:37.454 [http-nio-8080-exec-8] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 更新用户数的条目为：0
+2023-08-15 10:53:41.395 [http-nio-8080-exec-10] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 更新用户数的条目为：0

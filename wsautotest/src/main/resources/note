@@ -1,0 +1,5 @@
+#api自动化相关问题
+1.添加监听后，未生成文件时，刷新整个项目
+2.打包命令： mvn clean package
+
+调试本地环境时，httpclient不能直接使用localhost访问，需要使用http://localhost访问

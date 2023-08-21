@@ -1,0 +1,80 @@
+配置相关问题：
+
+
+
+
+
+#流水线工程配置
+#Linux安装java：
+yum install java-1.8.0-openjdk
+
+#添加环境变量
+export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.372.b07-1.el7_9.x86_64/jre
+PATH=$JAVA_HOME/bin:$PATH:$HOME/.local/bin:$HOME/bin
+
+#Linux安装maven
+wget https://dlcdn.apache.org/maven/maven-3/3.9.0/binaries/apache-maven-3.9.0-bin.tar.gz
+#如果没有wget命令行
+yum install wget
+
+#如果使用wget报错，使用下面的命令行进行下载
+curl -O https://downloads.apache.org/maven/maven-3/3.9.0/binaries/apache-maven-3.9.0-bin.tar.gz
+
+#配置maven环境变量（/etc/profile文件添加下方配置）
+MAVEN_HOME={Linux安装maven的绝对路径，pwd获取}
+export MAVEN_HOME
+export PATH=${PATH}:${MAVEN_HOME}/bin
+
+
+#Jenkins配置
+#使用以下命令从 Jenkins 的官方 Yum 存储库,
+sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+#该命令安装需java11版本
+sudo yum install jenkins
+
+#java1.8版本
+wget https://repo.huaweicloud.com/jenkins/redhat-stable/jenkins-2.346.3-1.1.noarch.rpm
+rpm -ivh jenkins-2.346.3-1.1.noarch.rpm
+#Jenkins profile添加自己的jdk
+vi /etc/init.d/jenkins
+#将JENKINS_USER="jenkins 改为 JENKINS_USER="root"
+vim /etc/sysconfig/jenkins
+#防火墙开放8080端口
+firewall-cmd --zone=public --add-port=8080/tcp --permanent
+systemctl restart firewalld   #重启
+#在 /etc/init.d/ 执行
+./jenkins start  #启动服务
+#其他指令
+./jenkins stop    #关闭服务
+./jenkins restart #重启服务
+
+
+#配置sftp：
+#安装openssh服务
+yum install openssh-server
+#添加sftp用户
+sudo adduser -m  username
+#编辑配置文件
+/etc/ssh/sshd_config
+Match User <username>
+    ChrootDirectory /home/<username>
+    PermitTunnel no
+    AllowAgentForwarding no
+    AllowTcpForwarding no
+    X11Forwarding no
+    ForceCommand internal-sftp
+
+#设置添加用户的密码
+sudo passwd username
+
+
+
+
+
+
+
+
+#CICD流程
+https://blog.csdn.net/weixin_54104864/article/details/130922802
+

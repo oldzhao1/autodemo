@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.code">
+    <!--登录接口-->
+    <select id="login" parameterType="com.code.model.User" resultType="Integer">
+        select count(*)
+        from user
+        where name = #{name}
+          and passwd = #{passwd}
+
+    </select>
+
+    <!-- 添加用户接口-->
+    <insert id="addUser" parameterType="com.code.model.User">
+        insert into user(name, passwd)
+        values (#{name}, #{passwd})
+    </insert>
+
+    <!--获取用户信息-->
+    <select id="getUserInfo" parameterType="com.code.model.User" resultType="com.code.model.User">
+        select *
+        from user
+        <trim prefix="where" prefixOverrides="and">
+            <if test="null != id and '' != id">
+                and id = #{id}
+            </if>
+            <if test="null != name and '' != name">
+                and name = #{name}
+            </if>
+            <if test="null != passwd and '' != passwd">
+                and passwd = #{passwd}
+            </if>
+        </trim>
+
+    </select>
+
+    <update id="updateUser" parameterType="com.code.model.User">
+        update user
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="null != name and '' != name">
+                name = #{name},
+            </if>
+            <if test="null != passwd and '' != passwd">
+                passwd = #{passwd}
+            </if>
+        </trim>
+        where id = #{id}
+
+    </update>
+
+    <!-- 添加计划接口 -->
+    <insert id="addTask" parameterType="com.code.model.Task">
+        insert into task(task_name, remark, user_id, user_name, tag_name, tag_id, content, creat_at, update_at,
+                         isdelete)
+        values (#{task_name}, #{remark}, #{user_id}, #{user_name}, #{tag_name}, #{tag_id}, #{content}, #{creat_at},
+                #{update_at}, #{isdelete})
+    </insert>
+
+    <!--获取任务计划-->
+    <select id="getTaskInfo" parameterType="com.code.model.Task" resultType="com.code.model.Task">
+        select * from task
+        <trim prefix="where" prefixOverrides="and">
+            <if test="null != task_name and '' != task_name">
+                task_name = #{task_name}
+            </if>
+            <if test="null != id and '' != id ">
+                id = #{id}
+            </if>
+            <if test="null != remark and '' != remark ">
+                remark = #{remark}
+            </if>
+            <if test="null != user_id and '' != user_id ">
+                user_id = #{user_id}
+            </if>
+            <if test="null != user_name and '' != user_name ">
+                user_name = #{user_name}
+            </if>
+            <if test="null != tag_id and '' != tag_id ">
+                tag_id = #{tag_id}
+            </if>
+            <if test="null != tag_name and '' != tag_name ">
+                tag_name = #{tag_name}
+            </if>
+            <if test="null != creat_at and '' != creat_at ">
+                creat_at = #{creat_at}
+            </if>
+            <if test="null != update_at and '' != update_at ">
+                update_at = #{update_at}
+            </if>
+            <if test="null != isdelete and '' != isdelete ">
+                isdelete = #{isdelete}
+            </if>
+        </trim>
+    </select>
+
+    <update id="updateTask" parameterType="com.code.model.Task">
+        update task
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="null != task_name and '' != task_name">
+                task_name = #{task_name},
+            </if>
+            <if test="null != remark and '' != remark">
+                remark = #{remark},
+            </if>
+            <if test="null != user_id and '' != user_id">
+                user_id = #{user_id},
+            </if>
+            <if test="null != user_name and '' != user_name">
+                user_name = #{user_name},
+            </if>
+            <if test="null != tag_name and '' != tag_name">
+                tag_name = #{tag_name},
+            </if>
+            <if test="null != isdelete and '' != isdelete">
+                isdelete = #{isdelete}
+            </if>
+        </trim>
+        where id = #{id}
+    </update>
+
+
+</mapper>

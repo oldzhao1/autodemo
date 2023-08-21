@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="demo套件">
+    <test name="demo测试用例">
+        <classes>
+            <class name="com.tester.cases.LoginTest">
+                <methods>
+                    <include name="TestAddUserFalse"/>
+                    <include name="TestAddUserTrue"/>
+                </methods>
+            </class>
+            <class name="com.tester.cases.GetUserInfo"></class>
+            <class name="com.tester.cases.AddUserTest"></class>
+            <class name="com.tester.cases.UpdateUserTest"></class>
+        </classes>
+    </test>
+
+
+    <listeners>
+        <listener class-name="com.tester.config.ExtentTestNGIReporterListener"></listener>
+    </listeners>
+</suite>
