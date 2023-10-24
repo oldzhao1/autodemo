@@ -1,0 +1,618 @@
+2023-08-18 00:37:32.631 [Thread-11] INFO  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5023bb8b: startup date [Thu Aug 17 16:19:50 GMT+08:00 2023]; root of context hierarchy
+2023-08-18 00:37:32.635 [Thread-11] INFO  org.springframework.context.support.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+2023-08-18 00:37:32.636 [Thread-11] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2023-08-18 00:37:32.636 [Thread-11] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2023-08-18 00:37:32.638 [Thread-11] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-08-18 00:37:32.640 [Thread-11] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-08-18 00:38:33.390 [main] INFO  com.code.Application - Starting Application on LAPTOP-3N3LAPIG with PID 172 (C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes started by pc in C:\Users\pc\Documents\workspeac\AutoDemo\autodemo)
+2023-08-18 00:38:33.395 [main] INFO  com.code.Application - No active profile set, falling back to default profiles: default
+2023-08-18 00:38:33.475 [main] INFO  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@291caca8: startup date [Fri Aug 18 00:38:33 GMT+08:00 2023]; root of context hierarchy
+2023-08-18 00:38:34.626 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.code]' package. Please check your configuration.
+2023-08-18 00:38:34.881 [main] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4ae6812b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-18 00:38:35.217 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-08-18 00:38:35.240 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-08-18 00:38:35.241 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.28
+2023-08-18 00:38:35.245 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Users\pc\Documents\gongju\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\pc\Documents\gongju\jdk1.8.0_161\bin;C:\Program Files\Git\cmd;C:\Users\pc\Documents\gongju\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Users\pc\Documents\gongju\mysql-8.0.26-winx64\bin;C:\Program Files\Go\bin;C:\Users\pc\Documents\gongju\mysql-8.0.28-winx64\bin;C:\Users\pc\Documents\gongju\apache-jmeter-5.4\apache-jmeter-5.4.1\lib\ext\ApacheJMeter_core.jar;C:\Users\pc\Documents\gongju\apache-jmeter-5.4\apache-jmeter-5.4.1\lib\jorphan.jar;C:\Users\pc\Documents\gongju\apache-jmeter-5.4\apache-jmeter-5.4.1\bin;C:\Users\pc\Documents\gongju\ffmpeg-6.0-full_build\bin;C:\Users\pc\Documents\gongju\php-8.2.6-Win32-vs16-x64;C:\Program Files\Docker\Docker\resources\bin;C:\Users\pc\Documents\gongju\jdk1.8.0_161\jre\lib;C:\Program Files\Python3.6\Scripts\;C:\Program Files\Python3.6\;C:\Users\pc\AppData\Local\Microsoft\WindowsApps;C:\Users\pc\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2021.2\bin;;;C:\Program Files\JetBrains\IntelliJ IDEA 2021.2.1\bin;;C:\Users\pc\go\bin;C:\Program Files\JetBrains\GoLand 2022.1.3\bin;;.]
+2023-08-18 00:38:35.347 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-08-18 00:38:35.347 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1873 ms
+2023-08-18 00:38:35.488 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2023-08-18 00:38:35.494 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-08-18 00:38:35.494 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-08-18 00:38:35.494 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2023-08-18 00:38:35.494 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2023-08-18 00:38:35.734 [main] WARN  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'taskController': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.code.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.code.User
+2023-08-18 00:38:35.736 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-08-18 00:38:35.749 [main] INFO  o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-08-18 00:38:35.763 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'taskController': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.code.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.code.User
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:587)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:91)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:373)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1344)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234)
+	at com.code.Application.main(Application.java:14)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.code.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.code.User
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:729)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:470)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1250)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1065)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:584)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.code.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.code.User
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:587)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1250)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1065)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:815)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:721)
+	... 32 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.code.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.code.User
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:579)
+	... 45 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.code.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.code.User
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:613)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:491)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:633)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:179)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$7dbad25b.CGLIB$sqlSessionFactory$1(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$7dbad25b$$FastClassBySpringCGLIB$$76fb0bd5.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:361)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$7dbad25b.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 46 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.code.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.code.User
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:128)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:100)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:611)
+	... 59 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.code.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.code.User
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:78)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:144)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:136)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:126)
+	... 61 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.code.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.code.User
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:128)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:150)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 65 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.code.User
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:226)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:103)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:322)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:124)
+	... 67 common frames omitted
+2023-08-18 00:40:24.193 [main] INFO  com.code.Application - Starting Application on LAPTOP-3N3LAPIG with PID 3080 (C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes started by pc in C:\Users\pc\Documents\workspeac\AutoDemo\autodemo)
+2023-08-18 00:40:24.201 [main] INFO  com.code.Application - No active profile set, falling back to default profiles: default
+2023-08-18 00:40:24.276 [main] INFO  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@291caca8: startup date [Fri Aug 18 00:40:24 GMT+08:00 2023]; root of context hierarchy
+2023-08-18 00:40:25.236 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.code]' package. Please check your configuration.
+2023-08-18 00:40:25.471 [main] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7e6d554f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-18 00:40:25.782 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-08-18 00:40:25.802 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-08-18 00:40:25.802 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.28
+2023-08-18 00:40:25.807 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Users\pc\Documents\gongju\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\pc\Documents\gongju\jdk1.8.0_161\bin;C:\Program Files\Git\cmd;C:\Users\pc\Documents\gongju\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Users\pc\Documents\gongju\mysql-8.0.26-winx64\bin;C:\Program Files\Go\bin;C:\Users\pc\Documents\gongju\mysql-8.0.28-winx64\bin;C:\Users\pc\Documents\gongju\apache-jmeter-5.4\apache-jmeter-5.4.1\lib\ext\ApacheJMeter_core.jar;C:\Users\pc\Documents\gongju\apache-jmeter-5.4\apache-jmeter-5.4.1\lib\jorphan.jar;C:\Users\pc\Documents\gongju\apache-jmeter-5.4\apache-jmeter-5.4.1\bin;C:\Users\pc\Documents\gongju\ffmpeg-6.0-full_build\bin;C:\Users\pc\Documents\gongju\php-8.2.6-Win32-vs16-x64;C:\Program Files\Docker\Docker\resources\bin;C:\Users\pc\Documents\gongju\jdk1.8.0_161\jre\lib;C:\Program Files\Python3.6\Scripts\;C:\Program Files\Python3.6\;C:\Users\pc\AppData\Local\Microsoft\WindowsApps;C:\Users\pc\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2021.2\bin;;;C:\Program Files\JetBrains\IntelliJ IDEA 2021.2.1\bin;;C:\Users\pc\go\bin;C:\Program Files\JetBrains\GoLand 2022.1.3\bin;;.]
+2023-08-18 00:40:25.901 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-08-18 00:40:25.902 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1625 ms
+2023-08-18 00:40:26.032 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2023-08-18 00:40:26.039 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-08-18 00:40:26.039 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-08-18 00:40:26.039 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2023-08-18 00:40:26.039 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2023-08-18 00:40:26.267 [main] WARN  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'taskController': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.code.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.code.User
+2023-08-18 00:40:26.269 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-08-18 00:40:26.282 [main] INFO  o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-08-18 00:40:26.293 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'taskController': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.code.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.code.User
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:587)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:91)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:373)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1344)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234)
+	at com.code.Application.main(Application.java:14)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.code.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.code.User
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:729)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:470)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1250)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1065)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:584)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.code.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.code.User
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:587)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1250)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1065)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:815)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:721)
+	... 32 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.code.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.code.User
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:579)
+	... 45 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.code.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.code.User
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:613)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:491)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:633)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:179)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$b141a67f.CGLIB$sqlSessionFactory$1(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$b141a67f$$FastClassBySpringCGLIB$$ecb24be.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:361)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$b141a67f.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 46 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.code.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.code.User
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:128)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:100)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:611)
+	... 59 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.code.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.code.User
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:78)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:144)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:136)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:126)
+	... 61 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.code.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.code.User
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:128)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:150)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 65 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.code.User
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:226)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:103)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:322)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:124)
+	... 67 common frames omitted
+2023-08-18 00:41:36.702 [main] INFO  com.code.Application - Starting Application on LAPTOP-3N3LAPIG with PID 8256 (C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes started by pc in C:\Users\pc\Documents\workspeac\AutoDemo\autodemo)
+2023-08-18 00:41:36.706 [main] INFO  com.code.Application - No active profile set, falling back to default profiles: default
+2023-08-18 00:41:36.778 [main] INFO  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@291caca8: startup date [Fri Aug 18 00:41:36 GMT+08:00 2023]; root of context hierarchy
+2023-08-18 00:41:37.809 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.code]' package. Please check your configuration.
+2023-08-18 00:41:38.029 [main] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3b7072c6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-18 00:41:38.317 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-08-18 00:41:38.335 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-08-18 00:41:38.335 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.28
+2023-08-18 00:41:38.339 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Users\pc\Documents\gongju\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\pc\Documents\gongju\jdk1.8.0_161\bin;C:\Program Files\Git\cmd;C:\Users\pc\Documents\gongju\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Users\pc\Documents\gongju\mysql-8.0.26-winx64\bin;C:\Program Files\Go\bin;C:\Users\pc\Documents\gongju\mysql-8.0.28-winx64\bin;C:\Users\pc\Documents\gongju\apache-jmeter-5.4\apache-jmeter-5.4.1\lib\ext\ApacheJMeter_core.jar;C:\Users\pc\Documents\gongju\apache-jmeter-5.4\apache-jmeter-5.4.1\lib\jorphan.jar;C:\Users\pc\Documents\gongju\apache-jmeter-5.4\apache-jmeter-5.4.1\bin;C:\Users\pc\Documents\gongju\ffmpeg-6.0-full_build\bin;C:\Users\pc\Documents\gongju\php-8.2.6-Win32-vs16-x64;C:\Program Files\Docker\Docker\resources\bin;C:\Users\pc\Documents\gongju\jdk1.8.0_161\jre\lib;C:\Program Files\Python3.6\Scripts\;C:\Program Files\Python3.6\;C:\Users\pc\AppData\Local\Microsoft\WindowsApps;C:\Users\pc\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2021.2\bin;;;C:\Program Files\JetBrains\IntelliJ IDEA 2021.2.1\bin;;C:\Users\pc\go\bin;C:\Program Files\JetBrains\GoLand 2022.1.3\bin;;.]
+2023-08-18 00:41:38.426 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-08-18 00:41:38.426 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1648 ms
+2023-08-18 00:41:38.546 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2023-08-18 00:41:38.551 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-08-18 00:41:38.551 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-08-18 00:41:38.551 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2023-08-18 00:41:38.551 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2023-08-18 00:41:38.759 [main] WARN  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'taskController': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.code.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.code.User
+2023-08-18 00:41:38.760 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-08-18 00:41:38.771 [main] INFO  o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-08-18 00:41:38.781 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'taskController': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.code.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.code.User
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:587)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:91)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:373)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1344)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234)
+	at com.code.Application.main(Application.java:14)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.code.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.code.User
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:729)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:470)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1250)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1065)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:584)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.code.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.code.User
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:587)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1250)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1065)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:815)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:721)
+	... 32 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.code.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.code.User
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:579)
+	... 45 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.code.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.code.User
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:613)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:491)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:633)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:179)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$6e44c3f6.CGLIB$sqlSessionFactory$1(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$6e44c3f6$$FastClassBySpringCGLIB$$f306a11d.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:361)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$6e44c3f6.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 46 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.code.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.code.User
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:128)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:100)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:611)
+	... 59 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.code.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.code.User
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:78)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:144)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:136)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:126)
+	... 61 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.code.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.code.User
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:128)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:150)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 65 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.code.User
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:226)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:103)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:322)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:124)
+	... 67 common frames omitted
+2023-08-18 00:43:03.294 [main] INFO  com.code.Application - Starting Application on LAPTOP-3N3LAPIG with PID 22764 (C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes started by pc in C:\Users\pc\Documents\workspeac\AutoDemo\autodemo)
+2023-08-18 00:43:03.300 [main] INFO  com.code.Application - No active profile set, falling back to default profiles: default
+2023-08-18 00:43:03.369 [main] INFO  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@399c4be1: startup date [Fri Aug 18 00:43:03 GMT+08:00 2023]; root of context hierarchy
+2023-08-18 00:43:04.207 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.code]' package. Please check your configuration.
+2023-08-18 00:43:04.413 [main] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a59b4d1d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-18 00:43:04.681 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-08-18 00:43:04.701 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-08-18 00:43:04.701 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.28
+2023-08-18 00:43:04.705 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Users\pc\Documents\gongju\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\pc\Documents\gongju\jdk1.8.0_161\bin;C:\Program Files\Git\cmd;C:\Users\pc\Documents\gongju\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Users\pc\Documents\gongju\mysql-8.0.26-winx64\bin;C:\Program Files\Go\bin;C:\Users\pc\Documents\gongju\mysql-8.0.28-winx64\bin;C:\Users\pc\Documents\gongju\apache-jmeter-5.4\apache-jmeter-5.4.1\lib\ext\ApacheJMeter_core.jar;C:\Users\pc\Documents\gongju\apache-jmeter-5.4\apache-jmeter-5.4.1\lib\jorphan.jar;C:\Users\pc\Documents\gongju\apache-jmeter-5.4\apache-jmeter-5.4.1\bin;C:\Users\pc\Documents\gongju\ffmpeg-6.0-full_build\bin;C:\Users\pc\Documents\gongju\php-8.2.6-Win32-vs16-x64;C:\Program Files\Docker\Docker\resources\bin;C:\Users\pc\Documents\gongju\jdk1.8.0_161\jre\lib;C:\Program Files\Python3.6\Scripts\;C:\Program Files\Python3.6\;C:\Users\pc\AppData\Local\Microsoft\WindowsApps;C:\Users\pc\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2021.2\bin;;;C:\Program Files\JetBrains\IntelliJ IDEA 2021.2.1\bin;;C:\Users\pc\go\bin;C:\Program Files\JetBrains\GoLand 2022.1.3\bin;;.]
+2023-08-18 00:43:04.791 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-08-18 00:43:04.791 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1423 ms
+2023-08-18 00:43:04.915 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2023-08-18 00:43:04.919 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-08-18 00:43:04.920 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-08-18 00:43:04.920 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2023-08-18 00:43:04.920 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2023-08-18 00:43:05.192 [main] WARN  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'taskController': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.code.Task'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.code.Task
+2023-08-18 00:43:05.193 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-08-18 00:43:05.205 [main] INFO  o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-08-18 00:43:05.215 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'taskController': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.code.Task'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.code.Task
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:587)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:91)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:373)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1344)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234)
+	at com.code.Application.main(Application.java:14)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.code.Task'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.code.Task
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:729)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:470)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1250)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1065)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:584)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.code.Task'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.code.Task
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:587)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1250)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1065)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:815)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:721)
+	... 32 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.code.Task'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.code.Task
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:579)
+	... 45 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.code.Task'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.code.Task
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:613)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:491)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:633)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:179)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$d86f9e4d.CGLIB$sqlSessionFactory$1(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$d86f9e4d$$FastClassBySpringCGLIB$$571c2d6e.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:361)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$d86f9e4d.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 46 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes\mapper\mysql.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.code.Task'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.code.Task
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:128)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:100)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:611)
+	... 59 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.code.Task'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.code.Task
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:78)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:144)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:136)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:126)
+	... 61 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.code.Task'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.code.Task
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:128)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:150)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 65 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.code.Task
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:226)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:103)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:322)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:124)
+	... 67 common frames omitted
+2023-08-18 00:43:46.034 [main] INFO  com.code.Application - Starting Application on LAPTOP-3N3LAPIG with PID 10016 (C:\Users\pc\Documents\workspeac\AutoDemo\autodemo\devlopcode\target\classes started by pc in C:\Users\pc\Documents\workspeac\AutoDemo\autodemo)
+2023-08-18 00:43:46.041 [main] INFO  com.code.Application - No active profile set, falling back to default profiles: default
+2023-08-18 00:43:46.123 [main] INFO  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@291caca8: startup date [Fri Aug 18 00:43:46 GMT+08:00 2023]; root of context hierarchy
+2023-08-18 00:43:47.072 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.code]' package. Please check your configuration.
+2023-08-18 00:43:47.280 [main] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4ae6812b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-18 00:43:47.561 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-08-18 00:43:47.582 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-08-18 00:43:47.582 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.28
+2023-08-18 00:43:47.586 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Users\pc\Documents\gongju\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\pc\Documents\gongju\jdk1.8.0_161\bin;C:\Program Files\Git\cmd;C:\Users\pc\Documents\gongju\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Users\pc\Documents\gongju\mysql-8.0.26-winx64\bin;C:\Program Files\Go\bin;C:\Users\pc\Documents\gongju\mysql-8.0.28-winx64\bin;C:\Users\pc\Documents\gongju\apache-jmeter-5.4\apache-jmeter-5.4.1\lib\ext\ApacheJMeter_core.jar;C:\Users\pc\Documents\gongju\apache-jmeter-5.4\apache-jmeter-5.4.1\lib\jorphan.jar;C:\Users\pc\Documents\gongju\apache-jmeter-5.4\apache-jmeter-5.4.1\bin;C:\Users\pc\Documents\gongju\ffmpeg-6.0-full_build\bin;C:\Users\pc\Documents\gongju\php-8.2.6-Win32-vs16-x64;C:\Program Files\Docker\Docker\resources\bin;C:\Users\pc\Documents\gongju\jdk1.8.0_161\jre\lib;C:\Program Files\Python3.6\Scripts\;C:\Program Files\Python3.6\;C:\Users\pc\AppData\Local\Microsoft\WindowsApps;C:\Users\pc\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2021.2\bin;;;C:\Program Files\JetBrains\IntelliJ IDEA 2021.2.1\bin;;C:\Users\pc\go\bin;C:\Program Files\JetBrains\GoLand 2022.1.3\bin;;.]
+2023-08-18 00:43:47.676 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-08-18 00:43:47.676 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1553 ms
+2023-08-18 00:43:47.810 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2023-08-18 00:43:47.815 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2023-08-18 00:43:47.815 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2023-08-18 00:43:47.815 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2023-08-18 00:43:47.815 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2023-08-18 00:43:48.463 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/get/user/info],methods=[POST]}" onto public java.util.List<com.code.model.User> com.code.controller.TaskController.getUserInfo(javax.servlet.http.HttpServletRequest,com.code.model.User)
+2023-08-18 00:43:48.464 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/get/task],methods=[POST]}" onto public java.util.List<com.code.model.Task> com.code.controller.TaskController.getTaskInfo(javax.servlet.http.HttpServletRequest,com.code.model.Task)
+2023-08-18 00:43:48.465 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/add/user],methods=[POST]}" onto public java.lang.Boolean com.code.controller.TaskController.addUser(javax.servlet.http.HttpServletRequest,com.code.model.User)
+2023-08-18 00:43:48.465 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/login],methods=[POST]}" onto public java.lang.Boolean com.code.controller.TaskController.login(javax.servlet.http.HttpServletResponse,com.code.model.User)
+2023-08-18 00:43:48.465 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/update/task],methods=[POST]}" onto public int com.code.controller.TaskController.updateTask(javax.servlet.http.HttpServletRequest,com.code.model.Task)
+2023-08-18 00:43:48.465 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/update/user],methods=[POST]}" onto public int com.code.controller.TaskController.updateUser(javax.servlet.http.HttpServletRequest,com.code.model.User)
+2023-08-18 00:43:48.465 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/add/task],methods=[POST]}" onto public int com.code.controller.TaskController.addTask(javax.servlet.http.HttpServletRequest,com.code.model.Task)
+2023-08-18 00:43:48.466 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2023-08-18 00:43:48.471 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2023-08-18 00:43:48.471 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2023-08-18 00:43:48.472 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2023-08-18 00:43:48.476 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2023-08-18 00:43:48.477 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2023-08-18 00:43:48.812 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@291caca8: startup date [Fri Aug 18 00:43:46 GMT+08:00 2023]; root of context hierarchy
+2023-08-18 00:43:48.955 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2023-08-18 00:43:48.955 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2023-08-18 00:43:48.993 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2023-08-18 00:43:49.178 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2023-08-18 00:43:49.179 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2023-08-18 00:43:49.185 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2023-08-18 00:43:49.189 [main] INFO  org.springframework.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2023-08-18 00:43:49.189 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-08-18 00:43:49.210 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-08-18 00:43:49.225 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-08-18 00:43:49.488 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-18 00:43:49.491 [main] INFO  com.code.Application - Started Application in 4.176 seconds (JVM running for 5.419)
+2023-08-18 00:44:02.271 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2023-08-18 00:44:02.271 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2023-08-18 00:44:02.301 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 30 ms
+2023-08-18 00:44:02.394 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-08-18 00:44:02.575 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-08-18 00:44:02.626 [http-nio-8080-exec-1] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 查询到的结果是1
+2023-08-18 00:44:02.626 [http-nio-8080-exec-1] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 登录的用户是：zhangsan
+2023-08-18 00:44:03.323 [http-nio-8080-exec-2] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 查询到的结果是1
+2023-08-18 00:44:03.324 [http-nio-8080-exec-2] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 登录的用户是：zhangsan
+2023-08-18 00:45:02.295 [http-nio-8080-exec-5] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.Boolean com.code.controller.TaskController.addUser(javax.servlet.http.HttpServletRequest,com.code.model.User)
+2023-08-18 00:46:09.134 [http-nio-8080-exec-6] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.Boolean com.code.controller.TaskController.addUser(javax.servlet.http.HttpServletRequest,com.code.model.User)
+2023-08-18 00:50:09.102 [http-nio-8080-exec-7] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.Boolean com.code.controller.TaskController.addUser(javax.servlet.http.HttpServletRequest,com.code.model.User)
+2023-08-18 00:51:33.403 [http-nio-8080-exec-9] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 验证通过
+2023-08-18 00:51:33.413 [http-nio-8080-exec-9] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 添加的用户org.apache.catalina.connector.RequestFacade@4ff2279
+2023-08-18 00:53:52.343 [http-nio-8080-exec-5] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 验证通过
+2023-08-18 00:53:52.350 [http-nio-8080-exec-5] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 添加的用户org.apache.catalina.connector.RequestFacade@4ff2279
+2023-08-18 00:54:13.387 [http-nio-8080-exec-6] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 验证通过
+2023-08-18 00:54:13.397 [http-nio-8080-exec-6] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 添加的用户org.apache.catalina.connector.RequestFacade@4ff2279
+2023-08-18 00:59:16.429 [http-nio-8080-exec-8] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.Boolean com.code.controller.TaskController.addUser(javax.servlet.http.HttpServletRequest,com.code.model.User)
+2023-08-18 01:03:29.201 [http-nio-8080-exec-1] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 查询到的结果是1
+2023-08-18 01:03:29.201 [http-nio-8080-exec-1] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 登录的用户是：zhangsan
+2023-08-18 01:03:29.844 [http-nio-8080-exec-2] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 验证失败
+2023-08-18 01:03:58.181 [http-nio-8080-exec-5] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 查询到的结果是1
+2023-08-18 01:03:58.181 [http-nio-8080-exec-5] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 登录的用户是：zhangsan
+2023-08-18 01:20:54.223 [http-nio-8080-exec-7] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 查询到的结果是1
+2023-08-18 01:20:54.223 [http-nio-8080-exec-7] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 登录的用户是：zhangsan
+2023-08-18 01:21:31.638 [http-nio-8080-exec-9] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 查询到的结果是1
+2023-08-18 01:21:31.638 [http-nio-8080-exec-9] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 登录的用户是：zhangsan
+2023-08-18 01:22:12.621 [http-nio-8080-exec-1] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 查询到的结果是1
+2023-08-18 01:22:12.621 [http-nio-8080-exec-1] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 登录的用户是：zhangsan
+2023-08-18 01:22:13.277 [http-nio-8080-exec-2] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 验证失败
+2023-08-18 01:26:02.408 [http-nio-8080-exec-5] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 查询到的结果是1
+2023-08-18 01:26:02.408 [http-nio-8080-exec-5] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 登录的用户是：zhangsan
+2023-08-18 01:26:03.069 [http-nio-8080-exec-6] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 验证失败
+2023-08-18 15:23:37.625 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11h9m31s525ms545µs800ns).
+2023-08-18 15:47:04.654 [http-nio-8080-exec-9] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 查询到的结果是1
+2023-08-18 15:47:04.654 [http-nio-8080-exec-9] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 登录的用户是：zhangsan
+2023-08-18 15:49:37.591 [http-nio-8080-exec-1] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 查询到的结果是1
+2023-08-18 15:49:37.592 [http-nio-8080-exec-1] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 登录的用户是：zhangsan
+2023-08-18 15:49:38.264 [http-nio-8080-exec-2] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 验证通过
+2023-08-18 15:49:38.275 [http-nio-8080-exec-2] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 添加的用户org.apache.catalina.connector.RequestFacade@5143545a
+2023-08-18 15:50:14.657 [http-nio-8080-exec-3] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 查询到的结果是1
+2023-08-18 15:50:14.657 [http-nio-8080-exec-3] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 登录的用户是：zhangsan
+2023-08-18 15:50:15.231 [http-nio-8080-exec-5] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 验证通过
+2023-08-18 15:50:15.237 [http-nio-8080-exec-5] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 添加的用户org.apache.catalina.connector.RequestFacade@5143545a
+2023-08-18 20:40:56.376 [http-nio-8080-exec-7] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 查询到的结果是1
+2023-08-18 20:40:56.376 [http-nio-8080-exec-7] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 登录的用户是：zhangsan
+2023-08-18 20:43:34.806 [http-nio-8080-exec-9] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 查询到的结果是1
+2023-08-18 20:43:34.807 [http-nio-8080-exec-9] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 登录的用户是：zhangsan
+2023-08-18 20:44:38.034 [http-nio-8080-exec-1] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 查询到的结果是1
+2023-08-18 20:44:38.035 [http-nio-8080-exec-1] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 登录的用户是：zhangsan
+2023-08-18 20:45:48.388 [http-nio-8080-exec-4] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 查询到的结果是1
+2023-08-18 20:45:48.388 [http-nio-8080-exec-4] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 登录的用户是：zhangsan
+2023-08-18 20:48:02.872 [http-nio-8080-exec-5] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 查询到的结果是1
+2023-08-18 20:48:02.872 [http-nio-8080-exec-5] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 登录的用户是：zhangsan
+2023-08-18 20:48:03.524 [http-nio-8080-exec-6] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 验证通过
+2023-08-18 20:48:03.554 [http-nio-8080-exec-6] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 更新用户数的条目为：1
+2023-08-18 20:48:41.221 [http-nio-8080-exec-8] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 查询到的结果是1
+2023-08-18 20:48:41.222 [http-nio-8080-exec-8] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 登录的用户是：zhangsan
+2023-08-18 20:48:41.874 [http-nio-8080-exec-9] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 验证通过
+2023-08-18 20:48:41.876 [http-nio-8080-exec-9] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 更新用户数的条目为：1
+2023-08-18 21:19:53.483 [http-nio-8080-exec-1] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 查询到的结果是1
+2023-08-18 21:19:53.483 [http-nio-8080-exec-1] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 登录的用户是：zhangsan
+2023-08-18 21:19:54.126 [http-nio-8080-exec-2] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 验证通过
+2023-08-18 21:19:54.130 [http-nio-8080-exec-2] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 获取到的用户是：[User(id=7, name=lisi, passwd=999999)]
+2023-08-18 21:21:13.771 [http-nio-8080-exec-3] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 查询到的结果是1
+2023-08-18 21:21:13.771 [http-nio-8080-exec-3] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 登录的用户是：zhangsan
+2023-08-18 21:21:14.368 [http-nio-8080-exec-5] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 验证通过
+2023-08-18 21:21:14.369 [http-nio-8080-exec-5] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 获取到的用户是：[User(id=7, name=lisi, passwd=999999)]
+2023-08-18 21:21:53.886 [http-nio-8080-exec-7] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 查询到的结果是1
+2023-08-18 21:21:53.886 [http-nio-8080-exec-7] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 登录的用户是：zhangsan
+2023-08-18 21:21:54.582 [http-nio-8080-exec-8] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 验证通过
+2023-08-18 21:21:54.584 [http-nio-8080-exec-8] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 获取到的用户是：[User(id=7, name=lisi, passwd=999999)]
+2023-08-18 21:23:28.193 [http-nio-8080-exec-10] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 查询到的结果是1
+2023-08-18 21:23:28.193 [http-nio-8080-exec-10] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 登录的用户是：zhangsan
+2023-08-18 21:23:28.882 [http-nio-8080-exec-1] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 验证通过
+2023-08-18 21:23:28.884 [http-nio-8080-exec-1] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 获取到的用户是：[User(id=7, name=lisi, passwd=999999)]
+2023-08-18 21:24:19.887 [http-nio-8080-exec-4] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 查询到的结果是1
+2023-08-18 21:24:19.887 [http-nio-8080-exec-4] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 登录的用户是：zhangsan
+2023-08-18 21:24:20.578 [http-nio-8080-exec-3] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 验证通过
+2023-08-18 21:24:20.580 [http-nio-8080-exec-3] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 获取到的用户是：[User(id=7, name=lisi, passwd=999999)]
+2023-08-18 21:35:43.583 [http-nio-8080-exec-6] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 查询到的结果是1
+2023-08-18 21:35:43.583 [http-nio-8080-exec-6] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 登录的用户是：zhangsan
+2023-08-18 21:35:43.605 [http-nio-8080-exec-7] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 查询到的结果是1
+2023-08-18 21:35:43.606 [http-nio-8080-exec-7] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 登录的用户是：zhangsan
+2023-08-18 21:35:43.610 [http-nio-8080-exec-8] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 查询到的结果是1
+2023-08-18 21:35:43.610 [http-nio-8080-exec-8] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 登录的用户是：zhangsan
+2023-08-18 21:35:43.614 [http-nio-8080-exec-9] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 查询到的结果是1
+2023-08-18 21:35:43.614 [http-nio-8080-exec-9] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 登录的用户是：zhangsan
+2023-08-18 21:35:44.232 [http-nio-8080-exec-10] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 查询到的结果是0
+2023-08-18 21:35:44.258 [http-nio-8080-exec-1] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 查询到的结果是1
+2023-08-18 21:35:44.258 [http-nio-8080-exec-1] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 登录的用户是：zhangsan
+2023-08-18 21:35:44.284 [http-nio-8080-exec-2] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 验证通过
+2023-08-18 21:35:44.286 [http-nio-8080-exec-2] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 获取到的用户是：[User(id=7, name=lisi, passwd=999999)]
+2023-08-18 21:35:44.314 [http-nio-8080-exec-4] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 验证通过
+2023-08-18 21:35:44.324 [http-nio-8080-exec-4] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 添加的用户org.apache.catalina.connector.RequestFacade@5143545a
+2023-08-18 21:35:44.351 [http-nio-8080-exec-3] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 验证通过
+2023-08-18 21:35:44.352 [http-nio-8080-exec-3] INFO  com.sun.xml.internal.ws.spi.db.BindingContextFactory - 更新用户数的条目为：1

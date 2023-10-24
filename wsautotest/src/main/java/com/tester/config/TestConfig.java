@@ -11,6 +11,12 @@ import org.apache.http.impl.client.HttpClients;
 
 import java.util.List;
 
+/**
+ * 测试配置
+ *
+ * @author zz
+ * @date 2023/09/24
+ */
 public class TestConfig {
     //登录接口&获取cookies接口
     public static String loginUrl;

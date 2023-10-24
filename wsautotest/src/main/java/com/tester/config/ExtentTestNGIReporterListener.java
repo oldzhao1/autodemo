@@ -123,6 +123,13 @@ public class ExtentTestNGIReporterListener implements IReporter {
         extent.setReportUsesManualConfiguration(true);
     }
 
+    /**
+     * 构建测试节点
+     *
+     * @param extenttest 范围测试
+     * @param tests      测试
+     * @param status     装填
+     */
     private void buildTestNodes(ExtentTest extenttest, IResultMap tests, Status status) {
         //存在父节点时，获取父节点的标签
         String[] categories = new String[0];
@@ -150,7 +157,7 @@ public class ExtentTestNGIReporterListener implements IReporter {
                 String name = "";
                 //如果有参数，则使用参数的toString组合代替报告中的name
                 for (Object param : parameters) {
-                    name += param.toString();
+                    name = name + param.toString();
                 }
                 if (name.length() > 0) {
                     if (name.length() > 50) {

@@ -5,10 +5,25 @@ import com.tester.model.InterfaceEnum;
 import java.util.Locale;
 import java.util.ResourceBundle;
 
+
+/**
+ * 配置文件
+ *
+ * @author zz
+ * @date 2023/09/24
+ */
 public class ConfigFile {
 
+    /**
+     * 获取配置文件
+     */
     private static ResourceBundle bundle = ResourceBundle.getBundle("application", Locale.CHINA);
 
+
+    /**
+     * @param interfaceEnum 测试接口的枚举值
+     * @return {@link String} 返回要请求的接口链接
+     */
     public static String getUrl(InterfaceEnum interfaceEnum) {
         String ad = bundle.getString("test.url");
         String uri = "";
